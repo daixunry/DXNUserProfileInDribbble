@@ -74,14 +74,16 @@
     }];
     
     //observer infoView fold state
+    @weakify(self)
     [RACObserve(_infoView, isFold) subscribeNext:^(id x) {
+        @strongify(self)
         if ([x boolValue]) {
-            _navView.hidden = YES;
+            self->_navView.hidden = YES;
         } else {
-            _navView.hidden = NO;
-            _navView.alpha = 0;
+            self->_navView.hidden = NO;
+            self->_navView.alpha = 0;
             [UIView animateWithDuration:.5 animations:^{
-                _navView.alpha = 1;
+                self->_navView.alpha = 1;
             }];
         }
     }];

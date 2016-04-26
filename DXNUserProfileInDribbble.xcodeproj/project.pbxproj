@@ -14,7 +14,6 @@
 		E92BAB7D1BE4A278005E2402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BAB7C1BE4A278005E2402 /* ViewController.m */; };
 		E92BAB801BE4A278005E2402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92BAB7E1BE4A278005E2402 /* Main.storyboard */; };
 		E92BAB821BE4A278005E2402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92BAB811BE4A278005E2402 /* Assets.xcassets */; };
-		E92BAB851BE4A278005E2402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92BAB831BE4A278005E2402 /* LaunchScreen.storyboard */; };
 		E92BAB901BE4A279005E2402 /* DXNUserProfileInDribbbleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BAB8F1BE4A279005E2402 /* DXNUserProfileInDribbbleUITests.m */; };
 		E92BABA11BE4A34D005E2402 /* UserProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BABA01BE4A34D005E2402 /* UserProfileModel.m */; };
 		E92BABA41BE4A4A6005E2402 /* UserProfileInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BABA31BE4A4A6005E2402 /* UserProfileInfoView.m */; };
@@ -61,7 +60,6 @@
 		E92BAB7C1BE4A278005E2402 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E92BAB7F1BE4A278005E2402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E92BAB811BE4A278005E2402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		E92BAB841BE4A278005E2402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E92BAB861BE4A278005E2402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		E92BAB8B1BE4A279005E2402 /* DXNUserProfileInDribbbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DXNUserProfileInDribbbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92BAB8F1BE4A279005E2402 /* DXNUserProfileInDribbbleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXNUserProfileInDribbbleUITests.m; sourceTree = "<group>"; };
@@ -234,7 +232,6 @@
 				E92BAB781BE4A278005E2402 /* AppDelegate.h */,
 				E92BAB791BE4A278005E2402 /* AppDelegate.m */,
 				E92BAB811BE4A278005E2402 /* Assets.xcassets */,
-				E92BAB831BE4A278005E2402 /* LaunchScreen.storyboard */,
 				E92BAB861BE4A278005E2402 /* Info.plist */,
 				E92BABC31BE8A2C4005E2402 /* images */,
 			);
@@ -372,7 +369,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92BABC91BE8A2C4005E2402 /* backImg.png in Resources */,
-				E92BAB851BE4A278005E2402 /* LaunchScreen.storyboard in Resources */,
 				E92BABCD1BE8A2C4005E2402 /* sysl.jpg in Resources */,
 				E92BAB821BE4A278005E2402 /* Assets.xcassets in Resources */,
 				E92BABCA1BE8A2C4005E2402 /* email.png in Resources */,
@@ -494,15 +490,6 @@
 				E92BAB7F1BE4A278005E2402 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		E92BAB831BE4A278005E2402 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E92BAB841BE4A278005E2402 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			path = ..;
 			sourceTree = "<group>";
 		};

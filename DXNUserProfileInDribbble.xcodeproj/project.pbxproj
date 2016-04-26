@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B054BF9E4AB633C68030F863 /* libPods-DXNUserProfileInDribbble.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DE62D4A933DE361364115F /* libPods-DXNUserProfileInDribbble.a */; };
 		E929DC2D1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E929DC2C1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.m */; };
+		E929DC341CCF6AEB00ECE5B0 /* UserProfileViewControllerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BABA91BE4ACE1005E2402 /* UserProfileViewControllerViewModel.m */; };
 		E92BAB771BE4A278005E2402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BAB761BE4A278005E2402 /* main.m */; };
 		E92BAB7A1BE4A278005E2402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BAB791BE4A278005E2402 /* AppDelegate.m */; };
 		E92BAB7D1BE4A278005E2402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BAB7C1BE4A278005E2402 /* ViewController.m */; };
@@ -382,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E929DC341CCF6AEB00ECE5B0 /* UserProfileViewControllerViewModel.m in Sources */,
 				E929DC2D1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

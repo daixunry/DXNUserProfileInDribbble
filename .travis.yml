@@ -1,3 +1,2 @@
 language: objective-c
-xcode_workspace: DXNUserProfileInDribbble.xcworkspace
-xcode_scheme: DXNUserProfileInDribbble
+script: xcodebuild -workspace DXNUserProfileInDribbble.xcworkspace -scheme DXNUserProfileInDribbble -configuration Debug

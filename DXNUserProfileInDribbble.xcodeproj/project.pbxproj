@@ -527,6 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = daixunry.DXNUserProfileInDribbble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b7246d85-d851-40c9-8adf-0d6b8a2649c7";
 			};
 			name = Debug;
 		};
@@ -541,16 +542,19 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = daixunry.DXNUserProfileInDribbble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b7246d85-d851-40c9-8adf-0d6b8a2649c7";
 			};
 			name = Release;
 		};
 		E92BAB981BE4A279005E2402 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DXNUserProfileInDribbbleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = daixunry.DXNUserProfileInDribbbleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b7246d85-d851-40c9-8adf-0d6b8a2649c7";
 				TEST_TARGET_NAME = DXNUserProfileInDribbble;
 				USES_XCTRUNNER = YES;
 			};
@@ -559,10 +563,12 @@
 		E92BAB991BE4A279005E2402 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DXNUserProfileInDribbbleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = daixunry.DXNUserProfileInDribbbleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b7246d85-d851-40c9-8adf-0d6b8a2649c7";
 				TEST_TARGET_NAME = DXNUserProfileInDribbble;
 				USES_XCTRUNNER = YES;
 			};

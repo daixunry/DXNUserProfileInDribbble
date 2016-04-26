@@ -1,2 +1,2 @@
 language: objective-c
-script: - xctool test -project Demo/iOSDemo/JSPatchDemo.xcodeproj -scheme JSPatchDemo -sdk iphonesimulator
+script: xctool test -project Demo/iOSDemo/JSPatchDemo.xcodeproj -scheme JSPatchDemo -sdk iphonesimulator

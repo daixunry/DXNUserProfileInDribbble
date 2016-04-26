@@ -74,16 +74,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E92BAB8A1BE4A279005E2402"
-               BuildableName = "DXNUserProfileInDribbbleUITests.xctest"
-               BlueprintName = "DXNUserProfileInDribbbleUITests"
-               ReferencedContainer = "container:DXNUserProfileInDribbble.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "E929DC291CCF5D0400ECE5B0"
                BuildableName = "DXNUserProfileInDribbbleTests.xctest"
                BlueprintName = "DXNUserProfileInDribbbleTests"

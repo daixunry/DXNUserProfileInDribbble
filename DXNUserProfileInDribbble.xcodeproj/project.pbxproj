@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B054BF9E4AB633C68030F863 /* libPods-DXNUserProfileInDribbble.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DE62D4A933DE361364115F /* libPods-DXNUserProfileInDribbble.a */; };
+		E929DC2D1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E929DC2C1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.m */; };
 		E92BAB771BE4A278005E2402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BAB761BE4A278005E2402 /* main.m */; };
 		E92BAB7A1BE4A278005E2402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BAB791BE4A278005E2402 /* AppDelegate.m */; };
 		E92BAB7D1BE4A278005E2402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92BAB7C1BE4A278005E2402 /* ViewController.m */; };
@@ -29,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E929DC2F1CCF5D0400ECE5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E92BAB6A1BE4A278005E2402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92BAB711BE4A278005E2402;
+			remoteInfo = DXNUserProfileInDribbble;
+		};
 		E92BAB8C1BE4A279005E2402 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E92BAB6A1BE4A278005E2402 /* Project object */;
@@ -42,6 +50,9 @@
 		7ED98338D09C735CDB8F3301 /* Pods-DXNUserProfileInDribbble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DXNUserProfileInDribbble.release.xcconfig"; path = "Pods/Target Support Files/Pods-DXNUserProfileInDribbble/Pods-DXNUserProfileInDribbble.release.xcconfig"; sourceTree = "<group>"; };
 		BC620956FFF9BCE56B09F85B /* Pods-DXNUserProfileInDribbble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DXNUserProfileInDribbble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DXNUserProfileInDribbble/Pods-DXNUserProfileInDribbble.debug.xcconfig"; sourceTree = "<group>"; };
 		C3DE62D4A933DE361364115F /* libPods-DXNUserProfileInDribbble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DXNUserProfileInDribbble.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E929DC2A1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DXNUserProfileInDribbbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E929DC2C1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXNUserProfileInDribbbleTests.m; sourceTree = "<group>"; };
+		E929DC2E1CCF5D0400ECE5B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E92BAB721BE4A278005E2402 /* DXNUserProfileInDribbble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DXNUserProfileInDribbble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92BAB761BE4A278005E2402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E92BAB781BE4A278005E2402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +85,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E929DC271CCF5D0400ECE5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E92BAB6F1BE4A278005E2402 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,11 +127,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E929DC2B1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E929DC2C1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.m */,
+				E929DC2E1CCF5D0400ECE5B0 /* Info.plist */,
+			);
+			path = DXNUserProfileInDribbbleTests;
+			sourceTree = "<group>";
+		};
 		E92BAB691BE4A278005E2402 = {
 			isa = PBXGroup;
 			children = (
 				E92BAB741BE4A278005E2402 /* DXNUserProfileInDribbble */,
 				E92BAB8E1BE4A279005E2402 /* DXNUserProfileInDribbbleUITests */,
+				E929DC2B1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests */,
 				E92BAB731BE4A278005E2402 /* Products */,
 				68710456C383FA69EEC2A1B4 /* Pods */,
 				9928C185715D13021DC7D7C1 /* Frameworks */,
@@ -125,6 +153,7 @@
 			children = (
 				E92BAB721BE4A278005E2402 /* DXNUserProfileInDribbble.app */,
 				E92BAB8B1BE4A279005E2402 /* DXNUserProfileInDribbbleUITests.xctest */,
+				E929DC2A1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,6 +258,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E929DC291CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E929DC311CCF5D0400ECE5B0 /* Build configuration list for PBXNativeTarget "DXNUserProfileInDribbbleTests" */;
+			buildPhases = (
+				E929DC261CCF5D0400ECE5B0 /* Sources */,
+				E929DC271CCF5D0400ECE5B0 /* Frameworks */,
+				E929DC281CCF5D0400ECE5B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E929DC301CCF5D0400ECE5B0 /* PBXTargetDependency */,
+			);
+			name = DXNUserProfileInDribbbleTests;
+			productName = DXNUserProfileInDribbbleTests;
+			productReference = E929DC2A1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E92BAB711BE4A278005E2402 /* DXNUserProfileInDribbble */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E92BAB941BE4A279005E2402 /* Build configuration list for PBXNativeTarget "DXNUserProfileInDribbble" */;
@@ -276,6 +323,11 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = daixu;
 				TargetAttributes = {
+					E929DC291CCF5D0400ECE5B0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 63739LZT57;
+						TestTargetID = E92BAB711BE4A278005E2402;
+					};
 					E92BAB711BE4A278005E2402 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 63739LZT57;
@@ -302,11 +354,19 @@
 			targets = (
 				E92BAB711BE4A278005E2402 /* DXNUserProfileInDribbble */,
 				E92BAB8A1BE4A279005E2402 /* DXNUserProfileInDribbbleUITests */,
+				E929DC291CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E929DC281CCF5D0400ECE5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E92BAB701BE4A278005E2402 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +442,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E929DC261CCF5D0400ECE5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E929DC2D1CCF5D0400ECE5B0 /* DXNUserProfileInDribbbleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E92BAB6E1BE4A278005E2402 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,6 +475,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E929DC301CCF5D0400ECE5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92BAB711BE4A278005E2402 /* DXNUserProfileInDribbble */;
+			targetProxy = E929DC2F1CCF5D0400ECE5B0 /* PBXContainerItemProxy */;
+		};
 		E92BAB8D1BE4A279005E2402 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E92BAB711BE4A278005E2402 /* DXNUserProfileInDribbble */;
@@ -436,6 +509,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E929DC321CCF5D0400ECE5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DXNUserProfileInDribbbleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daixunry.DXNUserProfileInDribbbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DXNUserProfileInDribbble.app/DXNUserProfileInDribbble";
+			};
+			name = Debug;
+		};
+		E929DC331CCF5D0400ECE5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DXNUserProfileInDribbbleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daixunry.DXNUserProfileInDribbbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DXNUserProfileInDribbble.app/DXNUserProfileInDribbble";
+			};
+			name = Release;
+		};
 		E92BAB921BE4A279005E2402 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -579,6 +678,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E929DC311CCF5D0400ECE5B0 /* Build configuration list for PBXNativeTarget "DXNUserProfileInDribbbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E929DC321CCF5D0400ECE5B0 /* Debug */,
+				E929DC331CCF5D0400ECE5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E92BAB6D1BE4A278005E2402 /* Build configuration list for PBXProject "DXNUserProfileInDribbble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

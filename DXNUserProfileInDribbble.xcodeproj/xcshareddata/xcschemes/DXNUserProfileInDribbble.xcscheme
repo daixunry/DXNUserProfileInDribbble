@@ -80,6 +80,16 @@
                ReferencedContainer = "container:DXNUserProfileInDribbble.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E929DC291CCF5D0400ECE5B0"
+               BuildableName = "DXNUserProfileInDribbbleTests.xctest"
+               BlueprintName = "DXNUserProfileInDribbbleTests"
+               ReferencedContainer = "container:DXNUserProfileInDribbble.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
